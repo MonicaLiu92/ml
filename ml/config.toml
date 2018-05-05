@@ -1,20 +1,20 @@
-baseurl = "https://www.example.com"
-title = "yii.im"
+baseurl = "https://www.monicailiu.com"
+title = "monicaliu"
 theme = "vec"
 languageCode = "en-us"
 paginate = 10
-disqusShortname = "yiiim"
+disqusShortname = "miliu"
 googleAnalytics = "UA-57408564-1"
 
 [menu]
   # Shown in the side menu.
   [[menu.main]]
-    name = "post"
-    weight = 0
-    url = "/post"
+    name = "portfolio"
+    weight = 1
+    url = "/portfolio"
   [[menu.main]]
     name = "contact"
-    weight = 1
+    weight = 0
     url = "/contact"
   [[menu.main]]
     name = "faq"
@@ -23,10 +23,10 @@ googleAnalytics = "UA-57408564-1"
 
 [params]
   Keywords = "key, 关键字, キーワード"
-  Description = "There are some words to describe your site"
+  Description = "my personal site"
   Avatar = "img/avatar.jpg"
-  SelfIntro = "Just a worm, seek for true, live in shadow, no more..."
-  Email = "yiichou@gmail.com"
+  SelfIntro = "Welcome to the land of Monica; a constant battle of passions between art and code"
+  Email = "monicailiu@gmail.com"
 
   GithubID = "Your Github ID"
   TwitterID = "Your Twitter ID"
