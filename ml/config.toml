@@ -1,5 +1,6 @@
 baseurl = "https://www.monicailiu.com"
 title = "monicaliu"
+theme = "vec"
 languageCode = "en-us"
 paginate = 10
 disqusShortname = "miliu"
