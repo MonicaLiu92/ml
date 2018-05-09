@@ -35,7 +35,10 @@
 
       </figcaption>
     </figure>
-    <p class="user-motivation">{{ .Site.Params.SelfIntro }}</p>
+    <!--<p class="user-motivation">{{ .Site.Params.SelfIntro }}</p>-->
+	<p class="user-motivation">
+        {{ .Content }}
+    </p>
   </section>
 
   {{ partial "footer.html" . }}

@@ -1,7 +1,8 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Seaweed+Script');
+﻿@import url(//fonts.googleapis.com/css?family=Seaweed+Script);
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@import url(//fonts.googleapis.com/css?family=Droid+Sans+Mono|Russo+One|Source+Sans+Pro:400,700);
+@import url(//fonts.googleapis.com/css?family=Droid+Serif|Source+Sans+Pro:400,700);
 @import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+
 .hljs {
     display: block;
     background: white;
@@ -77,25 +78,26 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100%;
-    font-family: "Russo One", "Source Sans Pro", "PingFang SC", "Microsoft YaHei", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: "Source Sans Pro", "PingFang SC", "Microsoft YaHei", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 100%;
     letter-spacing: .01rem;
     position: relative
 }
 
-h1,
+h1 {
+	font-family: "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", cursive, sans-serif;
+    font-weight: 700;
+    line-height: 1.25
+}
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-    font-family: "Russo One", "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", cursive, sans-serif;
-    font-weight: 700;
+    font-family: "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", cursive, sans-serif;
+    font-weight: 100;
     line-height: 1.25
-}
-
-p {
-	font-family: "Seaweed Script", "Arial Black", cursive;
 }
 
 a {
@@ -142,7 +144,7 @@ header {
     top: 0;
     width: 100%;
     height: 1.75rem;
-    font-family: "Roboto Slab", "Droid Sans Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: "Roboto Slab", "Droid Serif", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: .875rem;
     font-weight: bold;
     background: #2d2d2d;
@@ -184,6 +186,7 @@ footer {
     position: absolute;
     width: 100%;
     padding: 1rem;
+	font-family: "Roboto Slab", "Droid Serif", "Arial Black", sans-serif;
     bottom: 0;
     box-sizing: border-box;
     color: #ccc
@@ -201,8 +204,8 @@ footer .footer-info {
 .user-profile {
     width: 100%;
     padding: 4rem 1rem 8rem;
-    font-family: "Russo One", "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    color: #888;
+    font-family: "Roboto Slab", "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+	color: #000;
     text-align: center;
     box-sizing: border-box
 }
@@ -230,6 +233,8 @@ footer .footer-info {
 .user-profile .user-motivation {
     max-width: 56rem;
     font-size: 4rem;
+	font-family: "Roboto Slab", "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", serif;
+	color: #000;
     line-height: 4.125rem;
     margin: 1rem auto
 }
@@ -246,7 +251,7 @@ footer .footer-info {
     display: block;
     width: 10rem;
     float: left;
-    font-family: "Russo One", "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-family: "Droid Serif", "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     font-size: 1.75rem;
     text-align: right;
     color: #CCCCCC;
@@ -285,7 +290,7 @@ footer .footer-info {
 }
 
 .post code {
-    font-family: "Droid Sans Mono", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-family: "Droid Serif", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     font-size: 0.85rem;
     color: #555;
     background-color: #f5f5f5;

@@ -1,6 +1,5 @@
 baseurl = "https://www.monicailiu.com"
 title = "monicaliu"
-theme = "vec"
 languageCode = "en-us"
 paginate = 10
 disqusShortname = "miliu"
@@ -17,16 +16,15 @@ googleAnalytics = "UA-57408564-1"
     weight = 0
     url = "/contact"
   [[menu.main]]
-    name = "faq"
+    name = "resume"
     weight = 2
-    url = "/faq"
+    url = "/resume"
 
 [params]
   Keywords = "key, 关键字, キーワード"
   Description = "my personal site"
   Avatar = "img/avatar.jpg"
-  SelfIntro = "Welcome to the land of Monica; a constant battle of passions between art and code"
-  Email = "monicailiu@gmail.com"
+  Email = "monicailiu1@gmail.com"
 
   GithubID = "Your Github ID"
   TwitterID = "Your Twitter ID"
