@@ -1,8 +1,24 @@
 <footer>
   <div class="footer-info">
-    <p>
-      <a href="mailto:{{ .Site.Params.Email }}?subject="><i class="fa fa-envelope-o"></i> {{ .Site.Params.Email }} </a>
-      <!--{
+    <p class="user-socials">
+        {{ with .Site.Params.TwitterID }}
+        <a href="https://twitter.com/{{.}}" title="Twitter"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        {{ end }}
+        {{ with .Site.Params.GoogleplusID }}
+        <a href="https://plus.google.com/{{.}}/about" title="Google+"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+        {{ end }}
+        {{ with .Site.Params.FacebookID }}
+        <a href="https://facebook.com/{{.}}" title="Facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+        {{ end }}
+        {{ with .Site.Params.GithubID }}
+        <a href="https://github.com/{{.}}" title="GitHub"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+        {{ end }}
+        {{ with .Site.Params.LinkedInID }}
+        <a href="http://linkedin.com/in/{{.}}" title="LinkedIn"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+        {{ end }}
+	
+      <!--<a href="mailto:{{ .Site.Params.Email }}?subject="><i class="fa fa-envelope-o"></i> {{ .Site.Params.Email }} </a>
+      {
         <a href="https://gohugo.io/" title="Hugo :: A fast and modern static website engine">Hugo {{ .Hugo.Version }}</a>,
         <a href="https://github.com/IvanChou/yii.im" title="vec">Vec</a>
       }

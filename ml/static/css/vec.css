@@ -87,7 +87,8 @@ body {
 h1 {
 	font-family: "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", cursive, sans-serif;
     font-weight: 700;
-    line-height: 1.25
+	font-size: 2rem;
+    line-height: 1.25;
 }
 
 h2,
@@ -97,7 +98,7 @@ h5,
 h6 {
     font-family: "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", cursive, sans-serif;
     font-weight: 100;
-    line-height: 1.25
+    line-height: 1.25;
 }
 
 a {
@@ -232,7 +233,7 @@ footer .footer-info {
 
 .user-profile .user-motivation {
     max-width: 56rem;
-    font-size: 4rem;
+    font-size: rem;
 	font-family: "Roboto Slab", "Arial Black", "Hiragino Sans GB", "Microsoft YaHei", serif;
 	color: #000;
     line-height: 4.125rem;
