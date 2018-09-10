@@ -1,8 +1,6 @@
 +++
-title = "Hugo is for lovers"
-date = "2015-08-03T13:39:46+02:00"
+title = "Pencil/Pen"
 toc = true
-comments = true
 +++
 
 ## Step 1. Install Hugo
