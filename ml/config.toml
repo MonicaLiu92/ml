@@ -25,7 +25,7 @@ googleAnalytics = "UA-57408564-1"
 [params]
   Keywords = "key, 关键字, キーワード"
   Description = "my personal site"
-  Avatar = "img/avatar.jpg"
+  Avatar = "img/mlenso.png"
   Email = "monicailiu1@gmail.com"
 
   GithubID = "monlu92"
