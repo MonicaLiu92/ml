@@ -65,3 +65,12 @@ complete and exceptional professionalism
 ## SKILLS
 
 Python | Java | C++ | C# | Django | MongoDB | SQL Management Studio | Git | Slack | Jira | Bitbucket | Unit Testing & debugging | Docker | Kubernetes | Rancher | Jenkins | Windows | Mac OSX | Linux | Scrum/Kanban | Agile Development
+
+## EDUCATION
+
+##### Simon Fraser University, Burnaby, Canada
+    Bachelor of Computer Science - Software Systems Major
+
+## INTERESTS/HOBBIES
+
+Soccer | Golf | Tennis | Volleyball | Softball | Snowboarding | Skiing | Hiking | Painting | Drawing | Travelling
