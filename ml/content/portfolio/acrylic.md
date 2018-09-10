@@ -1,7 +1,7 @@
 +++
 title = "Acrylic"
-tags = ["theme"]
-tiger = "{{ .Site.Params.AcrylicTiger }}"
+tags = "acrylic"
+toc = true
 +++
 
 > Apologies for the crappy quality of some photos  
